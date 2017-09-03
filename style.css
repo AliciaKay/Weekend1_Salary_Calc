@@ -1,0 +1,120 @@
+header {
+    color:#000; 
+    background-color:#f9fafc;
+    margin: 20px;
+    padding: 20px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+html {
+    color:#000; 
+    background-color:#a9badb;
+
+}
+#employeeInput > h2 {
+    margin: 10px;
+    text-shadow: 2px 2px 8px #000;
+}
+
+#employeeInput {
+    color:#fff; 
+    background-color:#6181bd;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px #888888;
+}
+input[type=text], input[type=number] {
+    border: 1px solid #7a95c7;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+    -webkit-appearance: square-button;
+  }
+#submit {
+    border: 1px solid #7a95c7;
+    background-color: #3f5e97;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    -webkit-appearance: square-button;
+}
+#submit:hover {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #354e7e;
+    -webkit-appearance: square-button;
+}
+  
+#submit:active {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #354e7e;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+
+#employeesList > h2 {
+    margin: 10px;
+    text-shadow: 2px 2px 8px #000;
+}
+#employeesList {
+    color:#fff; 
+    background-color:#6181bd;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 10px 10px 5px #888888;
+}
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    font-family: "Courier New", Courier, monospace;
+}
+table, th, td {
+    border: 1px solid #cdcdcd;
+}
+table th, table td {
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+#footerLabel {
+    text-align: right;
+    text-shadow: 2px 2px 8px #000;
+}
+#deleteRow {
+    border: 1px solid #7a95c7;
+    background-color: #3f5e97;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    -webkit-appearance: square-button;
+}
+#deleteRow:hover {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #354e7e;
+    -webkit-appearance: square-button;
+}
+  
+#deleteRow:active {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #354e7e;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+  }
+  
