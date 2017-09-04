@@ -26,15 +26,26 @@ function submitFunc() {
     $('#annualSalary').val(this.placeholder);
 
     sumTotals = Number(sumTotals += monthlyCost);
+    console.log(sumTotals);
 
-    $('#totalCell').html(sumTotals);
+    $('#totalCell').html('<b>' + sumTotals + '</b>');
 
 };
 
+function recalculateCosts() {
+    sumTotals = 0;
+    $('table tbody').find('.toAdd').each(function() {
+                sumTotals = Number(sumTotals += parseInt(($('.toAdd').text())));
+                return sumTotals;
+            }); $('#totalCell').html('<b>' + sumTotals + '</b>');
+        };
+
+
 function deleteRowFunc() {
         $('table tbody').find('input[name="record"]').each(function() {
-            if($(this).is(":checked")){ 
+            if($(this).is(':checked')){ 
                 $(this).parents("tr").remove();
-            } 
-        });
-    };
+                recalculateCosts();
+                console.log(sumTotals);
+            }; 
+        })};
