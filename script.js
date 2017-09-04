@@ -32,11 +32,9 @@ function submitFunc() {
 };
 
 function deleteRowFunc() {
-        $('table tbody').find('input[name="record"]').each(function(){
-            if($(this).is(":checked")){
-                sumTotals = Number(sumTotals -= this.monthlyCost)
-                $('#totalCell').val(sumTotals);
+        $('table tbody').find('input[name="record"]').each(function() {
+            if($(this).is(":checked")){ 
                 $(this).parents("tr").remove();
-            }
+            } 
         });
     };
